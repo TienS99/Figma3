@@ -1,0 +1,143 @@
+* {
+  font-size: 62.5%;
+}
+html {
+  font-size: 1.6rem;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body {
+  width: 1440px;
+  height: 10000px;
+}
+.main-content {
+  width: 1170px;
+  margin-left: auto;
+  margin-top: auto;
+}
+a {
+  text-decoration: none;
+}
+/* Header */
+.header {
+  height: 800px;
+  background-color: rgb(53, 111, 236);
+}
+.Header-Page {
+  padding-top: 50px;
+  display: flex;
+}
+.nav {
+  margin-left: auto;
+  margin-right: 200px;
+}
+.Favicon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.Favicon img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-right: 4px;
+}
+.Favicon__title {
+  text-align: right;
+}
+.Favicon__title h1 {
+  font-size: 18px;
+  line-height: 14px;
+}
+.Favicon__title p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: right;
+}
+/* Nar */
+.Header-Page .nav a {
+  font-weight: 300;
+  font-style: Light;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #c9d2da;
+  padding: 0 20px;
+}
+.Header-Page .nav a:hover {
+  color: #fff;
+  font-weight: 600px;
+  text-decoration: underline;
+}
+.btn {
+  color: #fff;
+  font-size: 20px;
+  width: 104px;
+  height: 44px;
+  border: none;
+  border-radius: 22px;
+  background-color: rgb(53, 111, 236);
+  transition: all 0.5 ease;
+  cursor: pointer;
+}
+.Nar-button button:hover {
+  transform: scale(1.2);
+  background-color: bisque;
+  color: black;
+}
+/* Header Main Page */
+.Header-title {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin-top: 50px;
+}
+.Header-title__Main {
+  width: 517px;
+  max-height: 420px;
+  margin-right: 40px;
+  margin-top: 86px;
+}
+.Header-title__Main h1 {
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: -2%;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+.Header-title__Main p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  margin-bottom: 38px;
+}
+.Header-title__button {
+  display: flex;
+  gap: 20px;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+.Header-title__button-1 {
+  width: 205px;
+  height: 60px;
+  background-color: hsl(219, 82%, 63%);
+  border-radius: 30px;
+}
+.Header-title__button span,
+a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #ffffff;
+}
+.Header__img {
+  display: flex;
+}
