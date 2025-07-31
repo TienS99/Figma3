@@ -548,7 +548,8 @@ a {
   height: 427px;
   position: relative;
   gap: 150px;
-  border: 1px solid black;
+  border-radius: 1%;
+  margin-bottom: 200px;
 
 }
 
@@ -580,4 +581,182 @@ a {
   font-size: 18px;
   color: #FFFFFF;
   line-height: 30px;
+}
+
+/* CTA-Font */
+.Font-Icon {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.Font-Icon__Font1 {
+  /* height: 40px; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 4px 8px 4px 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Font-Icon__Font1 i svg {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  object-fit: cover;
+}
+
+.Font-Icon__Text h5 {
+  font-size: 10px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.Font-Icon__Text p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: normal;
+}
+
+.Contact {
+  text-align: center;
+  background-color: #fdfbfb;
+  padding: 100PX 0;
+  margin-bottom: 200PX;
+}
+
+.Contact h5 {
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #0d1d64;
+}
+
+.Contact hr {
+  width: 150px;
+  height: 2px;
+  background-color: #2e80ce;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.Contact p {
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #575f66;
+}
+
+.Contact button {
+  margin-top: 35px;
+  width: 200px;
+  height: 60px;
+  background-color: #2e80ce;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 18px;
+  border: none;
+}
+
+.Footer {
+  background-color: #3575eb;
+  padding: 75px 0;
+}
+
+.Footer .main-content {
+  display: flex;
+  /* gap: 20px; */
+  align-items: baseline;
+  justify-content: baseline;
+  justify-items: center;
+  gap: 100px;
+}
+
+.Footer__favicon {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: baseline;
+}
+
+.Footer__favicon .Favicon .Favicon__title h1 {
+  margin-bottom: 5px;
+  color: #FFF;
+}
+
+.Footer__favicon p {
+  max-width: 336px;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #A9B3BB;
+  font-weight: 300;
+}
+
+/* Support */
+.Support {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+}
+
+.Support p {
+  font-size: 16px;
+  color: white;
+}
+
+.Support a {
+  color: #A9B3BB;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+/* Link */
+.Link {
+  display: block;
+  /* gap: 20px; */
+  max-width: 300px;
+}
+
+.Link p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.Link span {
+  font-size: 14px;
+  font-weight: 200;
+  color: #A9B3BB;
+  max-width: 200px;
+}
+
+.Search {
+  margin-top: 20px;
+}
+
+.Search input {
+  margin-right: 10px;
+  padding: 0 10px;
+  width: 150px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid #A9B3BB;
+  border-radius: 2%;
+  color: #fff;
+}
+
+.Search button {
+  width: 100px;
+  height: 40px;
+  background-color: #2e80ce;
+  border: none;
+  border-radius: 5%;
+  color: white;
 }
